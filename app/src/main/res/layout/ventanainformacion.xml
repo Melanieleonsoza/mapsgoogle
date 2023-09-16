@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imgFacultad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/ic_start" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nombre del Lugar"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/snippet4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dirección del Lugar"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout >
